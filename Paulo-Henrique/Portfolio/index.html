@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Paulo-Henrique/Portfolio/Styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <title>Portfolio</title>
 </head>
@@ -12,24 +14,29 @@
     <Header>
         <nav id="container">
             <div id="logo">Paulo Henrique</div>
-            <span id="burguer" class="material-symbols-outlined" onclick="clickNavbar()" style="font-size: 50px;">drag_handle</span>
+            <span id="burguer" class="material-symbols-outlined" onclick="cliqueMenu()" style="font-size: 50px;">drag_handle</span>
+            <nav id="menu">
+                <a href="">Sobre Mim</a>
+                <a href="">Skills</a>
+                <a href="">Projetos</a>
+            </nav>
         </nav>
     </Header>
 
     <article>
 
         <section id="apresentacao">
-            <div id="column1">
-                <img src="/Paulo-Henrique/Portfolio/img/Background/img.jpg" alt="">
+            <div >
+                <img id="img_slide" src="/Paulo-Henrique/Portfolio/img/Background/img.jpg">
             </div>
             <div id="column2">
-                <h1>Olá, eu sou Paulo.</h1>
-                <h1>Frontend Developer</h1>
-                <h1>Based in Brazil</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit nam amet facere. Quas hic maiores non, magni facilis alias officia? Eius consectetur quibusdam, quos hic ex harum ratione ullam reiciendis.</p>
+                <h1 class="h1_slide"> Olá, eu sou Paulo.</h1>
+                <h1 class="h1_slide">Frontend Developer</h1>
+                <h1 class="h1_slide">From Brazil</h1>
+                <p>Olá, eu sou Paulo Henrique, um apaixonado desenvolvedor frontend dedicado a transformar conceitos criativos em experiências digitais extraordinárias. Com meus 19 anos de idade e uma mentalidade inovadora, estou empenhado em construir interfaces intuitivas e envolventes que cativam os usuários.</p>
                 <div id="links">
-                    <a href=""></a>
-                    <a href=""></a>
+                    <a href="https://github.com/paulohenrif/">G</a>
+                    <a href="https://linkedin.com/in/paulohenrif">L</a>
                     <a href=""></a>
                     <a href=""></a>
                 </div>
@@ -41,14 +48,14 @@
                 <h1>My Skills</h1>
             
                 <div id="frames">
-                    <div id="frames1">
-                        <img src="/Paulo-Henrique/Portfolio/img/Skills/html.png" alt="HTML">
-                        <img src="/Paulo-Henrique/Portfolio/img/Skills/css-3.png" alt="CSS">
+                    <div id="frame">
+                        <div id="frame2"><img style="max-width: 15px;" src="/Paulo-Henrique/Portfolio/img/Skills/html.png" alt="HTML"></div>
+                        <div id="frame2"><img src="/Paulo-Henrique/Portfolio/img/Skills/css-3.png" alt="CSS"></div>
                     </div>
                     
-                    <div id="frames2">
-                        <img src="/Paulo-Henrique/Portfolio/img/Skills/script-java.png" alt="JAVASCRIPT">
-                        <img src="/Paulo-Henrique/Portfolio/img/Skills/react.Js.png" alt="REACT.JS">
+                    <div id="frame">
+                        <div id="frame2"><img src="/Paulo-Henrique/Portfolio/img/Skills/script-java.png" alt="JAVASCRIPT"></div>
+                        <div id="frame2"><img src="/Paulo-Henrique/Portfolio/img/Skills/react.Js.png" alt="REACT.JS"></div>
                     </div>
                 </div>
             </div>
@@ -60,17 +67,17 @@
 
                 <div id="columns">
                     <div class="column1">
-                        <h1>Expercience One</h1>
+                        <h1>Experience One</h1>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia laboriosam illo, enim quidem dolorum architecto excepturi pariatur maiores aut, minima itaque reprehenderit, in beatae praesentium doloremque aspernatur voluptatibus. Ullam, illo.</p>
                     </div>
                     <div class="column1">
-                        <h1>Expercience two</h1>
+                        <h1>Experience two</h1>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia laboriosam illo, enim quidem dolorum architecto excepturi pariatur maiores aut, minima itaque reprehenderit, in beatae praesentium doloremque aspernatur voluptatibus. Ullam, illo.</p>
                     </div>
                     <div class="column1">
-                        <h1>Expercience tree</h1>
+                        <h1>Experience tree</h1>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia laboriosam illo, enim quidem dolorum architecto excepturi pariatur maiores aut, minima itaque reprehenderit, in beatae praesentium doloremque aspernatur voluptatibus. Ullam, illo.</p>
                     </div>
@@ -83,11 +90,21 @@
                 <div><img src="/Paulo-Henrique/Portfolio/img/aboutme.jpg" alt=""></div>
                 <h1>Sobre Mim</h1>
 
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis at nihil consequatur veniam delectus hic excepturi esse iste, nemo, beatae, sunt ullam. Sed reprehenderit molestias maxime obcaecati unde eum ut?</p>
+                <p>Olá, meu nome é Paulo Henrique, tenho 19 anos e estou muito animado com a oportunidade de participar deste processo seletivo para a posição de desenvolvedor frontend.</p>
 
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque voluptatem consequuntur voluptas velit explicabo, maiores quis debitis dicta neque ipsum architecto pariatur sequi. Velit omnis praesentium architecto soluta veritatis voluptate?</p>
+                <p>Desde cedo, desenvolver para a web sempre me fascinou. A capacidade de criar interfaces interativas e visualmente atraentes é algo que me inspira. Quero ser um desenvolvedor frontend para transformar minhas ideias criativas em experiências digitais incríveis para os usuários.</p>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod atque cum laborum alias ratione dolore, sed accusantium eos dolorum temporibus earum at harum architecto pariatur ad odio consectetur necessitatibus perferendis!</p>
+                <p>Atualmente, estou cursando Sistemas de Informação na UFERSA/Angicos e desenvolvi habilidades sólidas em HTML, CSS, JavaScript. Também participei de alguns projetos do CursoemVideo.</p>
+
+                <p>Além disso, tenho trabalhado em alguns projetos por conta própria, como meu portfolio pessoal. Nele, pude aprimorar minhas habilidades e aprender a lidar com desafios reais de desenvolvimento frontend, como o medo de iniciar um projeto por não saber por onde começar.</p>
+
+                <p>Estou sempre buscando aprender e me manter atualizado com as últimas tendências em desenvolvimento frontend. Recentemente, tenho explorado React.Js.</p>
+
+                <p>Além das tecnologias fundamentais, também tenho conhecimentos em controle de versão com Git, Github, design responsivo, etc.</p>
+
+                <p>Acredito que a programação é uma constante jornada de aprendizado, e estou sempre disposto a enfrentar novos desafios. Gosto de resolver problemas de forma criativa e aprender com cada experiência.</p>
+
+                <p>Escolhi aplicar para esta empresa porque quero adquirir o máximo de experiência possível antes de aplicar para vagas. Acredito que minha paixão pelo desenvolvimento frontend e minhas habilidades podem contribuir positivamente para o time.</p>
 
             </div>
         </section>
@@ -142,5 +159,6 @@
         </footer>
     </article>
 </main>
+<script src="/Paulo-Henrique/Portfolio/scripts/menu.js"></script>
 </body>
 </html>
