@@ -26,6 +26,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "todo.apps.TodoConfig",
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
@@ -63,13 +64,13 @@ WSGI_APPLICATION = "core.wsgi.application"
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'basetodo',
-        'USER': 'root',
-        'PASSWORD': '123456',
-        'HOST': 'localhost',  # Pode ser alterado dependendo do seu ambiente
-        'PORT': '3306',      # Porta padrão do MySQL
+    "default": {
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "basetodo",
+        "USER": "root",
+        "PASSWORD": "123456",
+        "HOST": "localhost",  # Pode ser alterado dependendo do seu ambiente
+        "PORT": "3306",  # Porta padrão do MySQL
     }
 }
 
