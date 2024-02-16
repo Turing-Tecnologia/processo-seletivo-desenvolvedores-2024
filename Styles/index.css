@@ -4,13 +4,16 @@
     margin: 0;
     padding: 0;
     font-size: 20px;
+    
 }
-
+::selection {
+    background-color: rgba(128, 128, 128, 0.568);
+}
 body {
     font-family: 'Cormorant Garamond', serif;
 }
 main {
-    background-color: antiquewhite;
+    background-color: whitesmoke;
 }
 article {
     background-color: white;
@@ -18,7 +21,7 @@ article {
     margin: auto;
 }
 
-
+/* APRESENTAÇÃO */
 nav {
     display: contents;
     font-size: 15px;
@@ -29,14 +32,14 @@ header {
     justify-content: space-between;
     padding: 20px;
 }
-a {
+nav#menu > a {
     display: inline-block;
     padding: 5px;
     color: grey;
     text-decoration: none;
     margin: auto;
 }
-a:hover {
+nav#menu > a:hover {
     background-color: rgba(192, 192, 192, 0.616);
     color: rgb(83, 83, 83);
     margin-left: 3px;
@@ -54,6 +57,17 @@ a:hover {
     color: black;
     cursor: pointer;
     user-select: none;
+} 
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* MINHAS SKILLS */
+
+.frame_skll_1{
+    padding: 20px;
+    list-style: none;
+}
+li {
+    text-decoration: none;
 }
 .h1_slide, #h1_skill {
     text-align: center;
@@ -66,10 +80,33 @@ a:hover {
 .h2_exp {
     margin-left: 20px;
 }
-
 p { 
     padding: 20px;
 }
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* MINHAS EXPERIÊNCIAS */
+
+section#experience {
+    background-color: black;
+    color: white;
+}
+div#links {
+    height: 100px;
+    margin-left: 20px;
+}
+div#links > a > img {
+    width: 37px;
+    height: 37px;
+    padding: 5px;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+/* RODAPÉ DO SITE */
 footer {
     display: flex;
     background-color: black;
@@ -80,29 +117,4 @@ footer {
 footer > div#container {
     display: contents;
 }
-
-
-
-div#frame {
-    width: 150px;
-    height: 150px;
-}
-
-div#frame2 {
-    border: 5px solid red;
-}
-#frames2 > img {
-    width: 10px;
-    box-shadow: 1px solid black;
-}
-img {
-    min-width: 375px;
-}
-
-
-
-
-section#experience {
-    background-color: black;
-    color: white;
-}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
