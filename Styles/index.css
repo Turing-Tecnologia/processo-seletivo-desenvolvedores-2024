@@ -73,6 +73,11 @@ li {
     text-align: center;
     font-size: xx-large;
 }
+#h1_skll {
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 40px;
+}
 .h1_projeto {
     margin-left: 20px;
     font-size: xx-large;
@@ -82,8 +87,20 @@ li {
 }
 p {
     text-indent: 20px;
-    padding: 10px 20px;
+    padding: 10px 10px;
     text-align: justify;
+}
+div#container {
+    padding: 20px;
+}
+#frames {
+    display: contents;
+    text-align: center;
+}
+div.frame {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -96,6 +113,7 @@ section#experience {
 div#links {
     height: 100px;
     margin-left: 20px;
+    padding-top: 20px;
 }
 div#links > a > img {
     width: 37px;
