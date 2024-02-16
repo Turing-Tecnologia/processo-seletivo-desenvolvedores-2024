@@ -67,10 +67,11 @@ a:hover {
     user-select: none;
 }
 
-.h1_slide {
+.h1_slide, #h1_skill {
     text-align: center;
     font-size: xx-large;
 }
+
 /* #apresentacao > div > */p { 
     padding: 20px;
 }
@@ -85,11 +86,13 @@ footer > div#container {
     display: contents;
 }
 
-
+div#frame {
+    width: 150px;
+    height: 150px;
+}
 
 div#frame2 {
     border: 5px solid red;
-    padding: inset 100px;
 }
 #frames2 > img {
     width: 10px;
