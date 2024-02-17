@@ -68,7 +68,7 @@ nav#menu > a:hover {
 li {
     text-decoration: none;
 }
-.h1_slide, #h1_skill {
+.h1_slide {
     text-align: center;
     font-size: xx-large;
 }
@@ -82,7 +82,7 @@ li {
     font-size: xx-large;
 }
 .h2_exp {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 p {
     text-indent: 20px;
@@ -111,11 +111,11 @@ section#experience {
 div#experience {
     padding: 20px;
 }
-div.column1 {
+/* div.column1 {
     background-color: green;
     border: 3px solid blue;
     padding: 20px;
-}
+} */
 div#links {
     height: 100px;
     margin-left: 20px;
@@ -125,6 +125,29 @@ div#links > a > img {
     width: 37px;
     height: 37px;
     padding: 5px;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* MEUS CURSOS */
+#h1_cursos {
+    margin: 10px;
+}
+div.column1 {
+    padding: 20px;
+}
+input {
+    background-color: transparent;
+    color: rgba(3, 0, 0, 0.486);
+    font-size: small;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    padding: 7px;
+    border-radius: 50px;
+    margin: 10px;
+}
+input:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
