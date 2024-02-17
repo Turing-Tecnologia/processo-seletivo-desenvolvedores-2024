@@ -9,8 +9,10 @@
 ::selection {
     background-color: rgba(128, 128, 128, 0.568);
 }
-body {
+body, html {
     font-family: 'Cormorant Garamond', serif;
+    width: 100%;
+    height: 100%;
 }
 main {
     background-color: whitesmoke;
@@ -19,7 +21,7 @@ article {
     background-color: white;
     max-width: 600px;
     margin: auto;
-}
+} 
 
 /* APRESENTAÇÃO */
 nav {
