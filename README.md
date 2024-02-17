@@ -1,4 +1,4 @@
-# Time: 
+# Time desejado: 
 Frontend
 
 # Sobre Mim: 
@@ -19,3 +19,7 @@ Acredito que a programação é uma constante jornada de aprendizado, e estou se
 Escolhi aplicar para esta empresa porque quero adquirir o máximo de experiência possível antes de aplicar para vagas. Acredito que minha paixão pelo desenvolvimento frontend e minhas habilidades podem contribuir positivamente para o time.
 
 # Sobre o projeto:
+De maneira bem resumida, o projeto que desenvolvi foi um portfólio que falasse um pouco mais sobre mim, cursos, experiências e etc... O desenvolvi usando HTML, CSS e JavaScript. Para hostealo utilizei o Github Pages do qual ele hospeda o meu código, sendo assim, o código pode ser acessado contanto que tenha o link qu seria: [text](https://paulohenrif.github.io/processo-seletivo-desenvolvedores-2024/).
+
+# Instrução:
+Basta acessar o link [text](https://paulohenrif.github.io/processo-seletivo-desenvolvedores-2024/)!! O site está hospedado em meu perfil do github.
