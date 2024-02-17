@@ -127,8 +127,6 @@ div#experience {
     padding: 20px;
 }
 div.column1 {
-    background-color: green;
-    border: 3px solid blue;
     padding: 20px;
 }
 div#links {
@@ -179,7 +177,6 @@ section#projetos {
 footer {
     display: flex;
     background-color: white;
-    height: 300px;
     color: black;
     padding: 20px;
     align-items: end;
