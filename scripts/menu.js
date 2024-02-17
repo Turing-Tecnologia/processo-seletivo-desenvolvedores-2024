@@ -1,7 +1,9 @@
-function cliqueMenu() {
-    if (menu.style.display == 'block') {
-        menu.style.display = 'none'
-    } else {
-        menu.style.display = 'block'
-    }
-}
+document.addEventListener('DOMContentLoaded', function () {
+    const mobileMenuButton = document.getElementById('burguer');
+    const navList = document.getElementById('nav-list');
+  
+    mobileMenuButton.addEventListener('click', function () {
+      navList.classList.toggle('show');
+    });
+  });
+  

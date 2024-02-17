@@ -4,10 +4,12 @@
     margin: 0;
     padding: 0;
     font-size: 20px;
-    
 }
 ::selection {
     background-color: rgba(128, 128, 128, 0.568);
+}
+::-webkit-scrollbar {
+    display: none;
 }
 body, html {
     font-family: 'Cormorant Garamond', serif;
@@ -23,10 +25,10 @@ article {
     margin: auto;
 } 
 
-/* APRESENTAÇÃO */
+
+/* CABEÇALHO */
 nav {
     display: contents;
-    font-size: 15px;
 }
 header {
     display: flex;
@@ -34,33 +36,43 @@ header {
     justify-content: space-between;
     padding: 20px;
 }
-nav#menu > a {
-    display: inline-block;
-    padding: 5px;
-    color: grey;
-    text-decoration: none;
-    margin: auto;
+li {
+    padding: 10px;
 }
-nav#menu > a:hover {
-    background-color: rgba(192, 192, 192, 0.616);
-    color: rgb(83, 83, 83);
-    margin-left: 3px;
-    margin-right: 3px;
-    padding-left: 7px;
-    padding-right: 7px;
-    transition: 1s;
-    border-radius: 10px;
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* APRESENTAÇÃO */
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav-list li {
+    margin-right: 20px;
+}
+.nav-list a:hover {
+    text-decoration: 3px underline;
 }
 #burguer {
+    cursor: pointer;
+    display: none;
     background-color: transparent;
     width: 36px;
     height: 36px;
     font-weight: lighter;
-    color: black;
     cursor: pointer;
     user-select: none;
-} 
+}
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 
 /* MINHAS SKILLS */
 .frame_skll_1{
@@ -105,6 +117,7 @@ div.frame {
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
+
 /* MINHAS EXPERIÊNCIAS */
 section#experience {
     background-color: black;
@@ -113,11 +126,11 @@ section#experience {
 div#experience {
     padding: 20px;
 }
-/* div.column1 {
+div.column1 {
     background-color: green;
     border: 3px solid blue;
     padding: 20px;
-} */
+}
 div#links {
     height: 100px;
     margin-left: 20px;
@@ -130,11 +143,12 @@ div#links > a > img {
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
+
 /* MEUS CURSOS */
 #h1_cursos {
     margin: 10px;
 }
-div.column1 {
+div.column2 {
     padding: 20px;
 }
 input {
@@ -152,6 +166,7 @@ input:hover {
     transition: 1s;
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 
 /* MEUS PROJETOS */
 section#projetos {
