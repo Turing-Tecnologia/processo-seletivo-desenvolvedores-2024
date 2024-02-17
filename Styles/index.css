@@ -178,9 +178,11 @@ section#projetos {
 /* RODAPÉ DO SITE */
 footer {
     display: flex;
-    background-color: black;
-    color: white;
+    background-color: white;
+    height: 300px;
+    color: black;
     padding: 20px;
+    align-items: end;
     justify-content: space-between;
 }
 footer > div#container {
