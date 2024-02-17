@@ -7,11 +7,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="/Styles/mediaquery.css" media="all">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
     <title>Portfolio</title>
 </head>
 <body>
 <main>
-    <Header>
+    <header>
         <nav id="container">
             <div id="logo">Paulo Henrique</div>
 
@@ -27,7 +28,7 @@
 
             <span id="burguer" class="material-symbols-outlined" onclick="cliqueMenu()" style="font-size: 50px;">drag_handle</span>
         </nav>
-    </Header>
+    </header>
 
     <article>
 
@@ -90,13 +91,13 @@
             </div>
         </section>
 
-        <section id="experience">
+        <!-- <section id="experience">
             <div id="experience">
                 <h1 class="h1_slide" style="font-family: Arial, Helvetica, sans-serif;"><strong>Minha</strong> Experiência</h1>
 
                 <div id="columns">
                     <div class="column1">
-                        <h2 class="h2_exp">Experience One</h2>
+                        <h2 class="h2_exp">Suporte a Coordenação</h2>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia laboriosam illo, enim quidem dolorum architecto excepturi pariatur maiores aut, minima itaque reprehenderit, in beatae praesentium doloremque aspernatur voluptatibus. Ullam, illo.</p>
                     </div>
@@ -112,7 +113,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section id="cursos">
             <div id="cursos">
@@ -218,6 +219,16 @@
         </footer>
     </article>
 </main>
-<script src="scripts/menu.js"></script>
+<!-- <script src="scripts/menu.js"></script> -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const mobileMenuButton = document.getElementById('burguer');
+        const navList = document.getElementById('nav-list');
+
+        mobileMenuButton.addEventListener('click', function () {
+            navList.classList.toggle('show');
+        });
+    });
+</script>
 </body>
 </html>
