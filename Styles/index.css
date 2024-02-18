@@ -23,9 +23,10 @@ article {
     background-color: white;
     max-width: 600px;
     margin: auto;
-    box-shadow: 1px 10px 10px rgba(146, 146, 146, 0.164);
 } 
-
+section {
+    margin-bottom: 40px;
+}
 
 /* CABEÇALHO */
 nav {
@@ -172,6 +173,10 @@ input:hover {
 section#projetos {
     background-color: black;
     color: white;
+}
+div#column1, #column2, #column3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
