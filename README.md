@@ -1,4 +1,4 @@
-## Olá! Eu sou Luhan Marques, Tenho 21 anos, sou formado em técnico em informática e atuealmente curso Bacharelado em Sistemas de Infroamação, e queria fazer o teste para o frontend.
+## Olá! Eu sou Luhan Marques, Tenho 21 anos, sou formado em técnico em informática e atualmente curso Bacharelado em Sistemas de Informação, e queria fazer o teste para o frontend.
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Luanmarqz&show_icons=true&theme=tokyonight)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Luanmarqz&size_weight=0.5&count_weight=0.5&theme=tokyonight)](https://github.com/Luanmarqz/github-readme-stats)
