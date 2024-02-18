@@ -26,3 +26,5 @@
 ## Como rodar o projeto
 
 Para o rodar o site em localhost, seria indo na opção "Code" do repositório e depois na opção "Download como zip", e depois de baixado, vai na pasta Luhan Marques e abra o arquivo "Portfolio" com qualquer navegador.
+
+OBSERVAÇÃO: É ESSENCIAL QUE O ARQUIVO "PORTFOLIO" ESTEJA JUNTO DA PASTA "img"
