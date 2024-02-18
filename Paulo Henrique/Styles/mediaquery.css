@@ -75,6 +75,7 @@
   }
   .sMim > p, a {
     font-size: 20px;
+    text-align: center;
   }
 
   #projetos p {
@@ -82,5 +83,8 @@
   }
   #columns #column1, #column2, #column3 {
     margin-left: 30px;
+  }
+  sub {
+    font-size: 17px;
   }
 }

@@ -98,7 +98,8 @@ li {
     font-size: xx-large;
 }
 .h2_exp {
-    margin-left: 10px;
+    margin: 20px;
+    text-align: center;
 }
 #img_skll {
     width: 150px;
@@ -107,6 +108,7 @@ p {
     text-indent: 20px;
     padding: 10px 10px;
     text-align: justify;
+    line-height: 25px;
 }
 div#container {
     padding: 20px;
@@ -145,8 +147,10 @@ div#links > a > img {
     padding: 5px;
 }
 .tags {
+    max-width: 500px;
     padding: 10px;
-    font-size: 17px;
+    font-size: 20px;
+    margin: auto;
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
