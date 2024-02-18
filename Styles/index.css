@@ -21,7 +21,6 @@ main {
 }
 article {
     background-color: white;
-    max-width: 600px;
     margin: auto;
 } 
 section {
@@ -101,6 +100,9 @@ li {
 .h2_exp {
     margin-left: 10px;
 }
+#img_skll {
+    width: 150px;
+}
 p {
     text-indent: 20px;
     padding: 10px 10px;
@@ -141,6 +143,10 @@ div#links > a > img {
     width: 37px;
     height: 37px;
     padding: 5px;
+}
+.tags {
+    padding: 10px;
+    font-size: 17px;
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 

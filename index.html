@@ -41,10 +41,10 @@
 
     <article>
         <section id="apresentacao">
-            <div>
+            <div class="media_column">
                 <img id="img_slide" style="display: block; margin: auto;" src="img/Background/img.jpg">
             </div>
-            <div id="column2">
+            <div id="column2" class="media_column">
                 <h1 class="h1_slide"> Olá, eu sou Paulo.</h1>
                 <h1 class="h1_slide">Frontend Developer</h1>
                 <h1 class="h1_slide">From Brazil</h1>
@@ -65,33 +65,33 @@
                 <div id="frames">
                     <div class="frame">
                         <div>
-                            <img src="img/Skills/html.png" style="width: 100px;" alt="HTML"> <br>
+                            <img id="img_skll" src="img/Skills/html.png"" alt="HTML"> <br>
                             <p class="p_frame"><strong>HTML</strong></p>
                         </div>
                         <div>
-                            <img src="img/Skills/css-3.png" style="width: 100px;" alt="CSS"> <br>
+                            <img id="img_skll" src="img/Skills/css-3.png"" alt="CSS"> <br>
                             <p class="p_frame"><strong>CSS</strong></p>
                         </div>
                     </div>
                     
                     <div class="frame">
                         <div>
-                            <img src="img/Skills/script-java.png" style="width: 100px;" alt="JAVASCRIPT"> <br>
+                            <img class="media_skll" id="img_skll" src="img/Skills/script-java.png"" alt="JAVASCRIPT"> <br>
                             <p class="p_frame"><strong>JAVASCRIPT</strong></p>
                         </div>
                         <div>
-                            <img src="img/Skills/react.Js.png" style="width:100px;" alt="REACT.JS"> <br>
+                            <img id="img_skll" src="img/Skills/react.Js.png" alt="REACT.JS"> <br>
                             <p class="p_frame"><strong>REACT.JS</strong></p>
                         </div>
                     </div>
 
                     <div class="frame">
                         <div>
-                            <img src="img/github.png" style="width:100px;" alt="REACT.JS"> <br>
+                            <img id="img_skll" src="img/github.png" alt="REACT.JS"> <br>
                             <p class="p_frame"><strong>GITHUB</strong></p>
                         </div>
                         <div>
-                            <img src="img/Skills/git.png" style="width: 100px;" alt="GIT"> <br>
+                            <img id="img_skll" src="img/Skills/git.png" alt="GIT"> <br>
                             <p class="p_frame"><strong>GIT</strong></p>
                         </div>
                     </div>
@@ -107,16 +107,16 @@
                     <div class="column1">
                         <h2 class="h2_exp">Bolsista</h2>
 
-                        <sub style="padding: 10px; font-size: 17px;">Universidade Federal Rural do Semi-Árido</sub> <br>
-                        <sub style="padding: 10px; font-size: 15px;">ago de 2023 - o momento - 7 meses</sub> <br>
-                        <sub style="padding: 10px; font-size: 15px;">Angicos, Rio Grande do Norte, Brasil - Remota</sub>
+                        <sub class="tags">Universidade Federal Rural do Semi-Árido</sub> <br>
+                        <sub class="tags">ago de 2023 - o momento - 7 meses</sub> <br>
+                        <sub class="tags">Angicos, Rio Grande do Norte, Brasil - Remota</sub>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="cursos">
-            <div id="cursos">
+            <div id="curso">
                 <h1 class="h1_slide" id="h1_cursos" style="font-family: Arial, Helvetica, sans-serif;"><strong>Meus</strong> Cursos</h1>
 
                 <div id="columns">
@@ -134,6 +134,7 @@
 
                         <a href="https://aulas.cubos.academy/certificado/6f3f8ef1-a206-40b3-a8b3-eed894d95496/cursos/bc25d9d5-a358-445a-a2e8-8ae67dbc3257"><input type="button" value="Exibir credencial 🔗"></a>
                     </div>
+
                     <div class="column2">
                         <h2 class="h2_exp">Minicurso de Soft Skills</h2>
 
@@ -146,22 +147,19 @@
         </section>
 
         <section id="sobremim">
-            <div id="container">
-                <div><img style="display: block; margin: auto;" src="img/aboutme.jpg" alt=""></div>
+            <div id="sobremim_container">
+                <div><img style="display: block; margin: auto; width: 375px;" src="img/aboutme.jpg"></div>
 
-                <h1 class="h1_slide" style="font-family: Arial, Helvetica, sans-serif;"><strong>Sobre</strong> Mim</h1>
+                <div class="sMim">
+                    <h1 class="h1_slide" style="font-family: Arial, Helvetica, sans-serif;"><strong>Sobre</strong> Mim</h1>
 
-                <p>Desde cedo, desenvolver para a web sempre me fascinou. A capacidade de criar interfaces interativas e visualmente atraentes é algo que me inspira. Quero ser um desenvolvedor frontend para transformar minhas ideias criativas em experiências digitais incríveis para os usuários.</p>
-
-                <p>Atualmente, estou cursando Sistemas de Informação na UFERSA/Angicos e desenvolvi habilidades sólidas em HTML, CSS, JavaScript. Também participei de alguns projetos do <a href="https://www.cursoemvideo.com" id="cursoemvideo" target="_blank">cursoemvideo</a>🔗.</p>
-
-                <p>Além disso, tenho trabalhado em alguns projetos por conta própria, como meu portfolio pessoal. Nele, pude aprimorar minhas habilidades e aprender a lidar com desafios reais de desenvolvimento frontend, como o medo de iniciar um projeto por não saber por onde começar.</p>
-
-                <p>Estou sempre buscando aprender e me manter atualizado com as últimas tendências em desenvolvimento frontend. Recentemente, tenho explorado React.Js.</p>
-
-                <p>Além das tecnologias fundamentais, também tenho conhecimentos em controle de versão com Git, Github, design responsivo, etc.</p>
-
-                <p>Acredito que a programação é uma constante jornada de aprendizado, e estou sempre disposto a enfrentar novos desafios. Gosto de resolver problemas de forma criativa e aprender com cada experiência.</p>
+                    <p>Desde cedo, desenvolver para a web sempre me fascinou. A capacidade de criar interfaces interativas e visualmente atraentes é algo que me inspira. Quero ser um desenvolvedor frontend para transformar minhas ideias criativas em experiências digitais incríveis para os usuários.</p>
+                    <p>Atualmente, estou cursando Sistemas de Informação na UFERSA/Angicos e desenvolvi habilidades sólidas em HTML, CSS, JavaScript. Também participei de alguns projetos do <a href="https://www.cursoemvideo.com" id="cursoemvideo" target="_blank">cursoemvideo</a>🔗.</p>
+                    <p>Além disso, tenho trabalhado em alguns projetos por conta própria, como meu portfolio pessoal. Nele, pude aprimorar minhas habilidades e aprender a lidar com desafios reais de desenvolvimento frontend, como o medo de iniciar um projeto por não saber por onde começar.</p>
+                    <p>Estou sempre buscando aprender e me manter atualizado com as últimas tendências em desenvolvimento frontend. Recentemente, tenho explorado React.Js.</p>
+                    <p>Além das tecnologias fundamentais, também tenho conhecimentos em controle de versão com Git, Github, design responsivo, etc.</p>
+                    <p>Acredito que a programação é uma constante jornada de aprendizado, e estou sempre disposto a enfrentar novos desafios. Gosto de resolver problemas de forma criativa e aprender com cada experiência.</p>
+                </div>
             </div>
         </section>
 
@@ -188,7 +186,7 @@
 
                             <p>Desenvolvi o Mascote Android com base no modelo fornecido pelo Gustavo Guanabara em seu curso de CSS. O Mascote Android é um projeto de design focado na história por trás da criação do mascote Android. Através de ilustrações expressivas e cativantes.</p>
 
-                            <img src="img/projetos/Mascote-Android.jpg" style="display: block; border-radius: 5px; margin: auto; padding: 0px; width: 335px;">
+                            <img src="img/projetos/Mascote-Android.jpg" style="display: block; border-radius: 5px; margin: auto; padding: 0px; width: 300px;">
                         </div>
                     </div>
 
@@ -199,7 +197,7 @@
 
                             <p>O App para Denúncias é uma iniciativa voltada para o bem social da mulher, visando proporcionar uma plataforma segura e acessível para relatar incidentes e promover a conscientização. Com uma interface intuitiva e recursos de segurança robustos, a aplicação busca facilitar o processo de denúncia, contribuindo para um ambiente mais seguro e responsável para a mulher.</p>
 
-                            <img src="img/projetos/App-Denuncias.jpg" style="display: block; margin: auto; border-radius: 5px; width: 335px;">
+                            <img src="img/projetos/App-Denuncias.jpg" style="display: block; margin: auto; border-radius: 5px; width: 300px;">
                         </div>
                     </div>
                 </div>
