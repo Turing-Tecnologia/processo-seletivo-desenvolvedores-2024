@@ -1,0 +1,211 @@
+/*=====Sobre====*/
+#sobre section.modo-escuro {
+  background: url(../img/DRAGGNER-FUNDO-PRETO-1960x1080-OP40.png);
+}
+
+#sobre {
+  background: url(../img/DRAGGNER-FUNDO-BRANCO-1960x1080-OP40.png) no-repeat center;
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 30px 30px;
+}
+
+#sobre h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+
+}
+
+#sobre .sobre-content {
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#sobre .sob-content-img {
+  width: 260px;
+  margin-right: 456px;
+  margin-left: 12px;
+}
+
+#sobre .sobre-content-p {
+  max-width: 50%;
+}
+
+#sobre .sob-content-p p {
+  font-size: 28px;
+  margin: 0 0 12px;
+}
+
+#sobre .sob-content-p .seg-paragrafo span {
+  font-size: 28px;
+  color: #ff001e;
+}
+
+
+#sobre .sob-content-p .seg-descricao {
+  font-size: 16px;
+  margin: 0 0 24px;
+  text-align: justify;
+}
+
+#sobre .sob-content-p .seg-descricao .seg-destaque {
+  color: #ff001e;
+}
+
+
+#sobre .sob-content-p a {
+  color: #000000;
+  width: 80px;
+  transition: 0.3s;
+  padding: 4px 4px 4px 4px;
+  border: 2px solid #ff001e;
+  border-radius: 20px;
+}
+
+#sobre .sob-content-p a:hover {
+  background-color: rgba(255, 0, 30, 0.9);
+}
+
+/*=====Qualificações====*/
+#qualificacoes {
+
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 32px 32px;
+}
+
+#qualificacoes h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+#qualificacoes .content {
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#qualificacoes .content .academicas {
+  margin: 0 48px 0 24px;
+}
+
+#qualificacoes .content .academicas .card {
+  padding: 16px;
+  margin-top: 28px;
+  border: 1px solid rgba(255, 0, 30, 0.5);
+  border-radius: 2%;
+}
+
+#qualificacoes .content .academicas .card span {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#qualificacoes .content .academicas .card span img {
+  width: 20px;
+  margin-right: 12px;
+}
+
+#qualificacoes .content .habilidades {
+  max-width: 40%;
+  height: 160px;
+  margin: 0 24px 0 48px;
+}
+
+#qualificacoes .content .habilidades .card-tecs {
+  margin-top: 24px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#qualificacoes .content .habilidades .card-tecs img {
+  width: 80px;
+}
+
+#qualificacoes .content .habilidades .card-tecs span {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  margin: 0 12px 0 12px;
+  padding: 28px 12px 0 0;
+}
+
+
+/*=====Projetos====*/
+#projetos {
+
+  margin-top: 48px;
+  text-align: center;
+}
+
+#projetos .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#projetos .content .content-projec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 16px;
+}
+
+
+#projetos .content .content-projec img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  padding: 8px;
+}
+
+#projetos .content .content-projec a {
+  color: #000000;
+} 
+
+#projetos .content-projec .car-project:hover {
+  transition: .2s;
+  transform: scale(1.1);
+}
+
+
+#projetos .content-projec .car-project-au {
+  border: 1px solid blue;
+  width: 60%;
+}
+
+#projetos .content-projec .car-project-au img {
+  width: 48px;
+}
+
+/*=====Rodapé====*/
+#rodape {
+  height: 100%;
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px 30px;
+}
+
+#rodape a {
+  color: rgb(202, 186, 186);
+}
+
+#rodape a:hover {
+  color: rgb(36, 36, 247);
+}
