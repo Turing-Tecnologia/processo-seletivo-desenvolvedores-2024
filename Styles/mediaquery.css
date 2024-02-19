@@ -97,4 +97,15 @@
     display: block;
     text-align: center;
   }
+  nav.navbar {
+    display: block;
+    margin: auto;
+  }
+
+
+  ul.nav-list li:hover {
+    background-color: gray;
+    border-radius: 10px;
+    transition: 1s;
+  }
 }
