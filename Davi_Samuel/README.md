@@ -45,7 +45,7 @@ O comando acima mostra a versão instalada na máquina. Em caso de exibição, p
 Após os procedimentos até aqui, será necessário instalar as dependências do projeto. Com o gerenciador de pacotes Nodejs, conhecido como `npm`, execute:
 
 ```npm
-npm install
+npm install http-server
 ```
 
 Após as instalações das depêndencias, uma a ser utilizada é `http-server` que serve para abrir aplicação em um servidor local (no próprio browser), com isso rode o seguinte comando no terminal:
