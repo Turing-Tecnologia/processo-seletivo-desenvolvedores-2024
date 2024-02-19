@@ -87,4 +87,14 @@
   sub {
     font-size: 17px;
   }
+
+  .exp_column1 {
+    display: inline-block;
+    justify-content: space-around;
+    padding: 30px;
+  }
+  div#experience {
+    display: block;
+    text-align: center;
+  }
 }
