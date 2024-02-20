@@ -34,6 +34,7 @@ Intuito do desenvolvimento.
 |-----------------------------------------|------------------------------------------------|
 | **Clone o Repositório**                 | `git clone https://github.com/paulohenrif/processo-seletivo-desenvolvedores-2024` |
 | **Navegue até o Diretório do Projeto**  | `cd processo-seletivo-desenvolvedores-2024`                          |
+| **Navegue até o arquivo do Projeto**  | `cd 'Paulo Henrique'`                          |
 | **Inicialize o Repositório Git**        | `git init`                                   |
 | **Abra o Projeto no Navegador**        | `start index.html`                        |
 | **Visualize a Aplicação**               | Abre automaticamente no navegador.            |
