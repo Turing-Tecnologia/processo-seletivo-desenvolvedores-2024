@@ -1,44 +1,40 @@
-# Processo seletivo para desenvolvedores da EJ Turing Tecnologia 2024
+# Time desejado: 
+### Frontend
 
-Bem vindos ao processo seletivo para desenvolvedores da Turing Tecnologia, primeira empresa Jr de T.I da UFERSA, gostamos de desafios e acreditamos que  o melhor currículo para um programador é os seus projetos realizados, pensando dessa forma, a inscrição do nosso processo seletivo se dará aqui neste repositório.
+# Sobre Mim:
+Meu nome é Paulo Henrique. Estudo Desenvolvimento Frontend. Com 1 ano de experiência em HTML, CSS e javaScript, busco sempre aprender e crescer. Estou animado para contribuir na Turing Tecnologia.
 
-Para se tornar candidato a vaga de Desenvolvedor, siga com atenção os passos abaixo:.
+# Sobre o projeto:
+### Apresentação:
+Meu nome, e motivação.
+Compromisso com qualidade e inovação.
 
- - Faça um Fork neste repositório 
- - Adicione uma pasta com seu nome
- - Crie o projeto dentro desta pasta e no Readme deverá ter as seguintes informações:
-    - indique para qual time(backend e frontend) deseja entrar
-    - Se apresente falando um pouco sobre você
-    - Comente de forma breve sobre o que realizou no projeto
-    - Instruções de como rodar o seu projeto em localhost 
- - Faça um Pull Request para o mesmo repositório.
- 
-## Sobre o projeto para o teste :
+### Minhas Skills:
+Destaque em HTML, CSS e JavaScript.
+Layouts responsivos, práticas modernas.
 
-### TESTE BACKEND
+### Minha Experiência:
+Projetos específicos e resultados alcançados.
+Colaboração eficaz em equipes.
 
-Desenvolver uma API REST com as principais funcionalidades CRUD (To Do, Agenda
-Telefônica), utilizando (preferencialmente e não obrigatório) as seguintes tecnologias:
+### Meus Cursos:
+Certificações relevantes.
+Compromisso com aprendizagem contínua.
 
-- Java 8 ou superior
-- PostgreSQL
-- Springboot
-- JPA
-- Documentar a API utilizando o OpenAPI ou Swagger (opcional)
+### Sobre Mim:
+Detalhes pessoais que complementam a identidade profissional.
+Valores e interesses relacionados.
 
-### TESTE FRONTEND
+### Meus Projetos:
+Destaque para projetos significativos.
+Intuito do desenvolvimento.
 
-Desenvolver a sua própria Landing Page ou Portifólio falando sobre você, conquistas, cursos,
-experiências... utilizando preferencialmente as seguintes tecnologias:
-
-- HTML
-- CSS
-- Javascript(Desejável)
-- React e Bootstrap (É um diferencial)
- 
-# Observações
-Se ainda não souber utilizar o Git e o Github, aproveite a oportunidade para aprender. São ferramentas essenciais para o mercado de trabalho e você terá que utiliza-las de um jeito ou de outro no futuro.
-### Grupo no Whatsapp para duvidas
-https://chat.whatsapp.com/F5v29wmEyyIDAeQhkaD6eM
-
-# Vamo Codar! <3
+# Instrução:
+| Passo                                   | Descrição                                      |
+|-----------------------------------------|------------------------------------------------|
+| **Clone o Repositório**                 | `git clone https://github.com/paulohenrif/processo-seletivo-desenvolvedores-2024` |
+| **Navegue até o Diretório do Projeto**  | `cd processo-seletivo-desenvolvedores-2024`                          |
+| **Navegue até o arquivo do Projeto**  | `cd 'Paulo Henrique'`                          |
+| **Inicialize o Repositório Git**        | `git init`                                   |
+| **Abra o Projeto no Navegador**        | `start index.html`                        |
+| **Visualize a Aplicação**               | Abre automaticamente no navegador.            |
