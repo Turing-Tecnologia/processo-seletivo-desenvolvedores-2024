@@ -87,7 +87,6 @@
   sub {
     font-size: 17px;
   }
-
   .exp_column1 {
     display: inline-block;
     justify-content: space-around;
@@ -100,12 +99,5 @@
   nav.navbar {
     display: block;
     margin: auto;
-  }
-
-
-  ul.nav-list li:hover {
-    background-color: gray;
-    border-radius: 10px;
-    transition: 1s;
   }
 }

@@ -28,6 +28,7 @@ section {
 }
 div#logo {
     display: flex;
+    font-size: 25px;
     align-items: center;
     font-weight: bold;
 }
@@ -78,6 +79,11 @@ header {
 }
 li {
     padding: 3px;
+    margin-bottom: 10px;
+}
+li a:hover {
+    text-shadow: 1px 1px 1px black;
+    transition: 1s;
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -107,6 +113,10 @@ li {
     color: black;
     font-weight: bold;
     font-size: 20px;
+}
+div#links a:hover {
+    border-bottom: 1px solid black;
+    transition: 1s;
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -226,12 +236,12 @@ div#column1, #column2, #column3 {
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 
-/* SOBRE MIM */
-#cursoemvideo {
+/* SOBRE MIM / DEMAIS DIRECIONAMENTOS */
+.direcionamento {
     text-decoration: none;
     color: rgb(47, 0, 255);
 }
-#cursoemvideo:hover {
+.direcionamento:hover {
     text-decoration: 1px underline;
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
