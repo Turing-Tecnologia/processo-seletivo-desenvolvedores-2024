@@ -1,42 +1,24 @@
-Processo seletivo para desenvolvedores da EJ Turing Tecnologia 2024
+# Processo seletivo para desenvolvedores da EJ Turing Tecnologia 2024
 
-Bem vindos ao processo seletivo para desenvolvedores da Turing Tecnologia, primeira empresa Jr de T.I da UFERSA, gostamos de desafios e acreditamos que o melhor currículo para um programador é os seus projetos realizados, pensando dessa forma, a inscrição do nosso processo seletivo se dará aqui neste repositório.
 
-Para se tornar candidato a vaga de Desenvolvedor, siga com atenção os passos abaixo:.
 
-    Faça um Fork neste repositório
-    Adicione uma pasta com seu nome
-    Crie o projeto dentro desta pasta e no Readme deverá ter as seguintes informações:
-        indique para qual time(backend e frontend) deseja entrar
-        Se apresente falando um pouco sobre você
-        Comente de forma breve sobre o que realizou no projeto
-        Instruções de como rodar o seu projeto em localhost
-    Faça um Pull Request para o mesmo repositório.
+Me chamo wesley, no presente momento, estou cursando o 6° período do curso Bacharelado em Sistemas de Informação-UFERSA. Iniciei a minha carreira como desenvolvedor backend após desenvolver algumas aplicações que me fizeram optar por esse caminho que faz meus olhos brilharem. Desejo entrar no time de backend.
 
-Sobre o projeto para o teste :
-TESTE BACKEND
+Nesse projeto foi feito uma api REST com um CRUD.
+   
+    - Instruções de como rodar o seu projeto em localhost 
+ - Faça um Pull Request para o mesmo repositório.
+ 
+## Sobre o projeto para o teste :
 
-Desenvolver uma API REST com as principais funcionalidades CRUD (To Do, Agenda Telefônica), utilizando (preferencialmente e não obrigatório) as seguintes tecnologias:
+### TESTE BACKEND
 
-    Java 8 ou superior
-    PostgreSQL
-    Springboot
-    JPA
-    Documentar a API utilizando o OpenAPI ou Swagger (opcional)
+Desenvolver uma API REST com as principais funcionalidades CRUD (To Do, Agenda
+Telefônica), utilizando (preferencialmente e não obrigatório) as seguintes tecnologias:
 
-TESTE FRONTEND
+- Java 8 ou superior
+- PostgreSQL
+- Springboot
+- JPA
+- Documentar a API utilizando o OpenAPI ou Swagger (opcional)
 
-Desenvolver a sua própria Landing Page ou Portifólio falando sobre você, conquistas, cursos, experiências... utilizando preferencialmente as seguintes tecnologias:
-
-    HTML
-    CSS
-    Javascript(Desejável)
-    React e Bootstrap (É um diferencial)
-
-Observações
-
-Se ainda não souber utilizar o Git e o Github, aproveite a oportunidade para aprender. São ferramentas essenciais para o mercado de trabalho e você terá que utiliza-las de um jeito ou de outro no futuro.
-Grupo no Whatsapp para duvidas
-
-https://chat.whatsapp.com/F5v29wmEyyIDAeQhkaD6eM
-Vamo Codar! <3
