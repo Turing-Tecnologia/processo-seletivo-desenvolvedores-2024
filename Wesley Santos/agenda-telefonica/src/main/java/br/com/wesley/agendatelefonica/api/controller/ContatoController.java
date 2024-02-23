@@ -19,9 +19,6 @@ import br.com.wesley.agendatelefonica.api.helper.iHelper;
 import br.com.wesley.agendatelefonica.domain.model.Contato;
 import br.com.wesley.agendatelefonica.domain.service.ContatoService;
 
-//link do swagger
-//http://localhost:8080/swagger-ui/index.html#/
-
 
 @RestController
 @RequestMapping("/api/contatos")
