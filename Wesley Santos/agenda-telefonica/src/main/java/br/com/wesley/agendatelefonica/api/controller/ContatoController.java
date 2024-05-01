@@ -62,7 +62,9 @@ public class ContatoController {
     public ResponseEntity atualizar(@PathVariable long id, @RequestBody ContatoDTO contatoDTO) {
         Optional<Contato> optionalContato = contatoService.getContatoById(id);
         if (optionalContato.isPresent()) {
+            Contato entity = optionalContato.get();
             Contato contato = helper.converterDtoParaContato(contatoDTO);
+            contato.setId(entity.getId());
             contatoService.atualizar(contato);
             return ResponseEntity.ok(contato);
         } else {
