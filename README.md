@@ -38,7 +38,7 @@ experiências... utilizando preferencialmente as seguintes tecnologias:
  
 # Observações
 Se ainda não souber utilizar o Git e o Github, aproveite a oportunidade para aprender. São ferramentas essenciais para o mercado de trabalho e você terá que utiliza-las de um jeito ou de outro no futuro.
-### Grupo no Whatsapp para duvidas
-https://chat.whatsapp.com/F5v29wmEyyIDAeQhkaD6eM
+### E-mail para contato em caso de dúvidas
+rhturingtecnologia@gmail.com
 
 # Vamo Codar! <3
